@@ -23,6 +23,6 @@ def printer(names)
   badges = batch_badge_creator(names)
   rooms = assign_rooms(names )
 
-  puts badges.inspect
-  puts rooms
+  badges
+  rooms
 end
