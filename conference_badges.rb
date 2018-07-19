@@ -14,7 +14,9 @@ def assign_rooms(names)
   room_assignments = []
   names.each_with_index do |name, room|
     room += 1
-
+    room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
+  end
+  room_assignments
 end
 
 def printer(names)
